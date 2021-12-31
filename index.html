@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+   <!-- Title of The Page -->
+   <title>VVS - Virtual Voting System</title>
+   <!-- Meta Informations -->
+   <meta charset="utf-8">
+   <meta name="description" content="Bootstrap Responsive  VVS - Virtual Voting System">
+   <meta name="keywords" content="VVS - Virtual Voting System,template,bootstrap 5,ui template kit,envato templates,Job Portal HTML templates,html,css">
+   <meta name="author" content="VVS - Virtual Voting System">
+   <meta name="viewport" content="width=900, initial-scale=1, shrink-to-fit=no">
+
+   <!-- <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0"> -->
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.svg" />
+
+  <link rel="stylesheet" href="assets/css/fonts.css">
+
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="assets/css/LineIcons.2.0.css" />
+  <link rel="stylesheet" href="assets/css/animate.css" />
+  <link rel="stylesheet" href="assets/css/tiny-slider.css" />
+  <link rel="stylesheet" href="assets/css/glightbox.min.css" />
+  <link rel="stylesheet" href="assets/css/main.css" />
+</head>
+
+<body>
+  
+  <div id="loading-area"></div>
+
+  <header class="header">
+    <div class="navbar-area">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-12">
+            <nav class="navbar navbar-expand-lg">
+             
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="toggler-icon"></span>
+                <span class="toggler-icon"></span>
+                <span class="toggler-icon"></span>
+              </button>
+              <a class="navbar-brand logo" href="index.html">
+                <img class="logo1" src="assets/images/logo/logo.png" alt="Logo" />
+              </a>
+              <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
+                <ul id="nav" class="navbar-nav ml-auto">
+                  <li class="nav-item">
+                    <a class="active" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="about-us.html">About Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="faq.html">FAQ</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="contact.html">Contact</a>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="button">
+                <a href="javacript:" data-toggle="modal" data-target="#login" class="login"><i
+                    class="lni lni-lock-alt"></i> Login</a>
+                <a href="javacript:" data-toggle="modal" data-target="#signup" class="btn">Register</a>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="hero-area style3">
+    <div class="hero-inner">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 co-12">
+            <div class="inner-content">
+              <div class="hero-text">
+                <h1 class="wow fadeInUp text-center" data-wow-delay=".3s">
+                  Vote online!
+                </h1>
+                <p class="wow fadeInUp text-center" data-wow-delay=".5s">
+                  The mission is to make it easier for everyone to find and understand the government services<br> and information they need—anytime, anywhere, any way they want.<br>
+
+                  We think about how people search for government information, and how they use it. This helps us simplify and organize it in a way that makes sense.<br>
+                  
+                  Partnering with federal agencies, we reach out to people where they are, to connect them with their government.
+                </p>
+                <div class="button wow fadeInUp text-center" data-wow-delay=".7s">
+                  <a href="#" class="btn">Register Today</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="apply-process section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-4 col-12">
+          <div class="process-item">
+            <i class="lni lni-user"></i>
+            <h4>Register Your Account</h4>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-12">
+          <div class="process-item">
+            <i class="lni lni-book"></i>
+            <h4>Verify Identity</h4>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-12">
+          <div class="process-item">
+            <i class="lni lni-book"></i>
+            <h4>Vote Online</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="modal fade form-modal" id="login" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog max-width-px-840 position-relative">
+      <button type="button" class="
+            circle-32
+            btn-reset
+            bg-white
+            pos-abs-tr
+            mt-md-n6
+            mr-lg-n6
+            focus-reset
+            z-index-supper
+          " data-dismiss="modal">
+        <i class="lni lni-close"></i>
+      </button>
+      <div class="login-modal-main">
+        <div class="row no-gutters">
+          <div class="col-12">
+            <div class="row">
+              <div class="heading">
+                <h3>Login From Here</h3>
+              </div>
+              <form>
+                <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                  <strong>Failed!</strong> Invalid Email or Password.
+                  <spam type="button" class="close" data-dismiss="alert" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </spam>
+                </div>
+                <div class="form-group">
+                  <label for="email" class="label">E-mail</label>
+                  <input type="email" class="form-control" placeholder="example@gmail.com" id="email" />
+                </div>
+                <div class="form-group">
+                  <label for="ssn" class="label">Social Security Number</label>
+                  <input type="text" class="form-control" placeholder="Social Security Number" id="ssn" />
+                </div>
+                <div class="form-group">
+                  <label for="password" class="label">Password</label>
+                  <div class="position-relative">
+                    <input type="password" class="form-control" id="password" placeholder="Enter password" />
+                  </div>
+                </div>
+                <div class="form-group d-flex flex-wrap justify-content-between">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
+                    <label class="form-check-label" for="flexCheckDefault">Remember password</label>
+                  </div>
+                  <a href="#" class="font-size-3 text-dodger line-height-reset">Forget Password</a>
+                </div>
+                <div class="form-group mb-8 button">
+                  <button class="btn">Log in</button>
+                </div>
+                <p class="text-center create-new-account">
+                  Don’t have an account? <a href="#">Create a free account</a>
+                </p>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade form-modal" id="signup" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-lg max-width-px-840 position-relative">
+      <button type="button" class="
+            circle-32
+            btn-reset
+            bg-white
+            pos-abs-tr
+            mt-md-n6
+            mr-lg-n6
+            focus-reset
+            z-index-supper
+          " data-dismiss="modal">
+        <i class="lni lni-close"></i>
+      </button>
+      <div class="login-modal-main">
+        <div class="row no-gutters">
+          <div class="col-12">
+            <div class="row">
+              <div class="heading">
+                <h3>Register</h3>
+              </div>
+              <form>
+                <div class="row">
+                  <div class="form-group col-6">
+                    <label for="email" class="label">E-mail</label>
+                    <input type="email" class="form-control" placeholder="example@gmail.com" id="email" />
+                  </div>
+                  <div class="form-group col-6">
+                    <label for="ssn" class="label">Social Security Number</label>
+                    <input type="text" class="form-control" placeholder="Social Security Number" id="ssn" />
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="form-group col-6">
+                    <label for="nid" class="label">National ID</label>
+                    <input type="text" class="form-control" placeholder="National ID" id="nid" />
+                  </div>
+                  <div class="form-group col-6">
+                    <label for="dob" class="label">Date of Birth</label>
+                    <input type="date" class="form-control" placeholder="Date of Birth" id="dob" />
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="form-group col-6">
+                    <label for="address" class="label">Address</label>
+                    <input type="text" class="form-control" placeholder="Address" id="address" />
+                  </div>
+                  <div class="form-group col-6">
+                    <label for="password" class="label">Password</label>
+                    <div class="position-relative">
+                      <input type="password" class="form-control" id="password" placeholder="Enter password" />
+                    </div>
+                  </div>
+                </div>
+                <div class="form-group col-6">
+                  <label for="password" class="label">Confirm Password</label>
+                  <div class="position-relative">
+                    <input type="password" class="form-control" placeholder="Enter password" />
+                  </div>
+                </div>
+                <div class="form-group d-flex flex-wrap justify-content-between">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" />
+                    <label class="form-check-label" for="flexCheckDefault">Agree to the <a href="#">Terms &
+                        Conditions</a></label>
+                  </div>
+                </div>
+                <div class="form-group mb-8 button">
+                  <button class="btn">Sign Up</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer">
+
+    
+
+    <div class="footer-bottom">
+      <div class="container">
+        <div class="inner">
+          <div class="row">
+            <div class="col-12">
+              <div class="left">
+                <p>
+                   Designed and Developed by<a href="#" target="_blank">Alain Shumbusho</a>
+                </p>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#" class="scroll-top btn-hover">
+    <i class="lni lni-chevron-up"></i>
+  </a>
+
+  
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/wow.min.js"></script>
+  <script src="assets/js/tiny-slider.js"></script>
+  <script src="assets/js/glightbox.min.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
